@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="Credit.css" />
+    <title>Credit-Card</title>
+  </head>
+  <body>
+    <div class="page"> 
+        <!--It contains Navbar and the white portion before purple box  -->
+       <div class="main">
+         <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#"><img class="logo" src="logo.png" /></a>
+          <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          >
+          <span class="navbar-toggler-icon"></span>
+          </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav text-center ml-auto nav-section">
+                <li class="nav-item active">
+                  <a class="nav-link mr-3" href="#"
+                    >Track Application <span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item mr-3">
+                <a class="nav-link" href="#">Manage My Card</a>
+                </li>
+                <li class="nav-item mr-4">
+                  <a class="nav-link" href="#">FAQs</a>
+                </li>
+                <li class="nav-item">
+                  <button class="btn navbar-btn">Get Started</button>
+                </li>
+              </ul>
+            </div>
+      </nav>
+      <!-- Heading & poster below Navbar -->
+        <div class="main-poster d-flex">
+          <div class="main-heading ml-3">
+            <h1>Build a Credit Card <br />That is Definitely Yours</h1>
+            <p class="main-content">
+              With the OneSynce Credit Card you can customise your card the way
+              you want
+            </p>
+            <button class="btn get-started-btn">Get Started</button>
+          </div>
+            <div class="poster-img">
+              <img src="gif.svg" height="90%" width="100%" />
+            </div>
+         </div>
+   </div>
+   <!-- Purple portion -->
+    <div class="purpleDiv d-flex">
+      <div class="headingPurple">
+        <h1 class="heading-purple">
+          The Freedom to Create The Credit Card You Want
+        </h1>
+      </div>
+      <div class="contentPurple mb-5">
+        <p class="content-purple1">
+          That's why it comes with benefits & rewards chosen by you. Available
+          in multiple designs, your card comes in a style selected by you. You
+          can come back each year, to edit your benefits or update your style.
+        </p>
+        <p class="content-purple2">
+          Your OneSync Credit Card stays true to you, year after year. It’s the
+          only card you’ll ever need.
+        </p>
+        <button class="btn pl-0" style="color: white; font-size: 1.3rem">
+          <u> Get Started </u>
+          <span class="material-icons" style="align-items: center">
+            keyboard_arrow_right
+          </span>
+        </button>
+      </div>
+      <!-- purple portion mobile content -->
+      <div class="purple-mobile-content">
+        <p class="content-purple-mobile1">
+          Build your own Credit Card that fits in your day to day lifestyle.
+          First, choose your rewards and then select your card design.
+        </p>
+        <p class="content-purple-mobile2">
+          Check if the card is available in your city
+        </p>
+        <div class="purple-mobile-search d-flex">
+          <div class="purple-inside-select">
+            <select class="custom-select mb-5">
+              <option selected>Select City</option>
+              <option value="1">Delhi</option>
+              <option value="2">Mumbai</option>
+              <option value="3">Noida</option>
+            </select>
+          </div>
+          <div class="purple-inside-btn">
+            <button class="purple-mobile-btn btn px-3">GO</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- sky bule color form -->
+    <div class="form-box d-flex">
+      <div class="creat-credit-card-heading-mobile">
+        Create your own credit card in three easy steps
+      </div>
+      <div class="formDetail">
+        <form>
+          <div class="form-group">
+            <input
+              type="phone"
+              class="form-control"
+              placeholder="Enter your phone number"
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Enter your PAN number"
+            />
+          </div>
+          <div class="form-group">
+            <fieldset disabled>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter your Address"
+              />
+            </fieldset>
+          </div>
+        </form>
+        <img src="Animation.png" width="100%" />
+      </div>
+      <div class="formHeading">
+        <img src="insurance 1.png" />
+        <h4>Fill Eligibility Form</h4>
+        <p class="form-content-pc">
+          Tell us about yourself, to find out if <br />you’re eligible to apply.
+        </p>
+        <!-- form portion for mobile -->
+        <div class="form-mobile">
+          <p class="form-content-mobile">
+            Please fill an application form to make sure you’re eligible for the
+            card. You can fill this later as well
+          </p>
+          <button class="btn pl-0" style="color: black; font-size: 1.3rem">
+            <u> Get Started </u>
+            <span class="material-icons" style="align-items: center">
+              keyboard_arrow_right
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- pink portion -->
+    <div class="pink-box d-flex">
+      <div class="pink-text-area-pc">
+        <img src="networking 1.png" />
+        <h4>Choose Your Rewards</h4>
+        <p class="pink-reward-content-pc">
+          Match your card to your lifestyle. We’ve got benefits from across
+          brands & categories for you to choose from. Each benefit has an
+          attached fee. Just add the ones you like to your card.
+        </p>
+        <p class="pink-reward-content-mobile">
+          Choose rewards from brands and categories that fit in with your
+          personality. Your card’s annual fee will based on the rewards you
+          select.
+        </p>
+        <button
+          class="btn pink-reward-btn-mobile pl-0"
+          style="color: black; font-size: 1.3rem"
+        >
+          <u> Get Started </u>
+          <span class="material-icons" style="align-items: center">
+            keyboard_arrow_right
+          </span>
+        </button>
+      </div>
+      <div class="pink-slider-pc">
+        <input type="radio" name="position" />
+        <input type="radio" name="position" checked />
+        <input type="radio" name="position" />
+
+        <main id="carousel">
+         
+          <div class="item"><img src="1st offer.png" width="100%" /></div>
+          <div class="item">
+            <img src="offer.png" width="100%" />
+          </div>
+          <div class="item"><img src="1st offer.png" width="100%" /></div>
+        </main>
+      </div>
+    </div>
+    <!-- Selecting the card portion -->
+    <div class="select-card-box d-flex">
+      <div class="select-card-pc">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators ml-0">
+            <img
+              src="carousel1.png"
+              data-target="#carouselExampleIndicators"
+              data-slide-to="0"
+              class="active"
+            />
+            <img
+              src="carousel2..jpg"
+              data-target="#carouselExampleIndicators"
+              data-slide-to="1"
+            />
+            <img
+              src="carousel3.png"
+              data-target="#carouselExampleIndicators"
+              data-slide-to="2"
+            />
+            <img
+              src="carousel4.png"
+              data-target="#carouselExampleIndicators"
+              data-slide-to="3"
+            />
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item card-carousel active">
+              <img src="main.png" />
+            </div>
+            <div class="carousel-item card-carousel">
+              <img src="main.png" alt="Second slide" />
+            </div>
+            <div class="carousel-item card-carousel">
+              <img src="main.png" alt="Third slide" />
+            </div>
+            <div class="carousel-item card-carousel">
+              <img src="main.png" alt="Fourth slide" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="select-card-text-area-pc">
+        <img src="paint-roller 1.png" />
+        <h4>Select Your Style</h4>
+        <p class="select-card-content-pc">
+          Match your card to your personality. Whether you like a minimal look
+          or something that catches everyone’s eyes, we’ve got a style for you.
+          You can update your style every year, for a small fee
+        </p>
+        <p class="select-card-content-mobile">
+          Whether you like a minimal look or something that catches everyone’s
+          eyes. We have a Card design for you
+        </p>
+        <button
+          class="btn select-card-btn-mobile pl-0"
+          style="color: black; font-size: 1.3rem"
+        >
+          <u> Get Started </u>
+          <span class="material-icons" style="align-items: center">
+            keyboard_arrow_right
+          </span>
+        </button>
+      </div>
+    </div>
+    <!-- Div which only appears on mobile device -->
+    <div class="div-only-mobile">
+      <div class="purpleDiv d-flex">
+        <div class="headingPurple">
+          <h1 class="heading-purple">
+            Why the OneSync Card is the Best Choice for you?
+          </h1>
+        </div>
+        <div class="contentPurple mb-5">
+       
+        </div>
+        <div class="purple-mobile-content">
+          <p class="content-purple-mobile1">
+            You can create a Credit Card that fits all your needs on your own. Gone
+            are the days when you had choose from premade credit cards with features
+            that you did not need.
+          </p>
+          <p class="content-purple-mobile1">
+            With the OneSync card you can save on all the things that you love to do
+            with a unique personal touch
+            
+          </p>
+          <button
+          class="btn pink-reward-btn-mobile pl-0"
+          style="color: white; font-size: 1.6rem"
+        >
+          <u> Get Started </u>
+          <span class="material-icons" style="align-items: center">
+            keyboard_arrow_right
+          </span>
+        </button>
+
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <!-- FAQs Section -->
+    <div class="FAQs">
+      <h4 class="FAQs-heading">FAQs</h4>
+      <div class="FAQs-dropdown-list">
+        <div class="FAQs-subHeading">
+          <button
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#FAQsContent1"
+          >
+            Who’s eligible for the Card?
+            <span class="material-icons" style="float: right">
+              keyboard_arrow_down
+            </span>
+          </button>
+          <p class="collapse navbar-collapse" id="FAQsContent1">
+            If you’re between 23-60 years of age, have a monthly income of
+            ₹25,000 or more, and have never defaulted on a credit card or loan
+            payment, we’d encourage you to apply. However, your application will
+            be declined if your location isn’t serviceable or if your credit
+            score is low.
+          </p>
+        </div>
+        <div class="FAQs-subHeading">
+          <button
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#FAQsContent2"
+          >
+            Is my location serviceable?
+            <span class="material-icons" style="float: right">
+              keyboard_arrow_down
+            </span>
+          </button>
+          <p class="collapse navbar-collapse" id="FAQsContent2">
+            If you’re between 23-60 years of age, have a monthly income of
+            ₹25,000 or more, and have never defaulted on a credit card or loan
+            payment, we’d encourage you to apply. However, your application will
+            be declined if your location isn’t serviceable or if your credit
+            score is low.
+          </p>
+        </div>
+        <div class="FAQs-subHeading">
+          <button
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#FAQsContent3"
+          >
+            What if I don’t want to pay at all?
+            <span class="material-icons" style="float: right">
+              keyboard_arrow_down
+            </span>
+          </button>
+          <p class="collapse navbar-collapse" id="FAQsContent3">
+            If you’re between 23-60 years of age, have a monthly income of
+            ₹25,000 or more, and have never defaulted on a credit card or loan
+            payment, we’d encourage you to apply. However, your application will
+            be declined if your location isn’t serviceable or if your credit
+            score is low.
+          </p>
+        </div>
+        <div class="FAQs-subHeading">
+          <button
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#FAQsContent4"
+          >
+            What happens after I’ve build my card?
+            <span class="material-icons" style="float: right">
+              keyboard_arrow_down
+            </span>
+          </button>
+          <p class="collapse navbar-collapse" id="FAQsContent4">
+            If you’re between 23-60 years of age, have a monthly income of
+            ₹25,000 or more, and have never defaulted on a credit card or loan
+            payment, we’d encourage you to apply. However, your application will
+            be declined if your location isn’t serviceable or if your credit
+            score is low.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Section -->
+    <div class="footer">
+      <div class="upper-footer">
+        <h4 class="footer-heading">OneSync Credit Card</h4>
+        <p>Experience Freedom</p>
+        <button class="btn footer-btn">Get Started</button>
+      </div>
+      <div class="lower-footer d-flex">
+        <div class="footer-sec1">
+          <li>Manage Your Card</li>
+          <li>Track Your Application</li>
+          <li>Contact Us</li>
+        </div>
+        <div class="footer-sec2">
+          <li>Manage Your Card</li>
+          <li>Track Your Application</li>
+          <li>Contact Us</li>
+        </div>
+        <div class="footer-sec3">
+          <li>Manage Your Card</li>
+          <li>Track Your Application</li>
+          <li>Contact Us</li>
+        </div>
+        <div class="footer-sec4">
+          <li>Manage Your Card</li>
+          <li>Track Your Application</li>
+          <li>Contact Us</li>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"
+  ></script>
+</html>
